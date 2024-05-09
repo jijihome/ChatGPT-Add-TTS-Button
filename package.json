@@ -1,15 +1,16 @@
 {
-  "name": "chatgpt-tts",
-  "version": "1.0.0",
-  "description": "为 ChatGPT 对话页面启用文字转语音功能",
-  "main": "UserScript.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "chatgpt",
-    "tts"
-  ],
-  "author": "王剑辉",
-  "license": "ISC"
+    "name": "chatgpt-tts",
+    "version": "1.0.0",
+    "description": "为 ChatGPT 对话页面启用文字转语音功能",
+    "main": "UserScript.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "chatgpt",
+        "tts"
+    ],
+    "author": "王剑辉",
+    "license": "ISC",
+    "github": "https://github.com/wangjianhui11/chatgpt-tts"
 }

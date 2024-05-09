@@ -55,17 +55,13 @@ function addStopButton(parentElement) {
 function startReading() {
     console.log("开始朗读...")
     isReading = true // 设置朗读标志为 true
-    const currentConversation = document.querySelector(".text-gray-400.active")
-    if (currentConversation) {
-        const previousDiv = currentConversation.parentElement.previousElementSibling
-        if (previousDiv) {
-            console.log("找到上一个 div 元素：", previousDiv)
-            readTextFromDiv(previousDiv)
-        } else {
-            console.log("未找到上一个 div 元素。")
-        }
+    const readButton = event.target // 获取点击的朗读按钮
+    const conversationElement = readButton.parentElement.parentElement.previousElementSibling // 获取上一个对话元素
+    if (conversationElement) {
+        console.log("找到要朗读的对话内容：", conversationElement.innerText)
+        readTextFromDiv(conversationElement) // 开始朗读上一个对话内容
     } else {
-        console.log("未找到当前对话元素。")
+        console.log("未找到要朗读的对话内容。")
     }
 }
 
