@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ChatGPT TTS Reader
-// @namespace    http://your.site.namespace
+// @namespace    https://github.com/jijihome/ChatGPT-TTS-Reader
 // @version      0.1
 // @description  为 ChatGPT 对话页面启用文字转语音功能
 // @author       jijihome
